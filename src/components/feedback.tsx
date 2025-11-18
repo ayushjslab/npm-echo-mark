@@ -71,7 +71,7 @@ const Feedback: React.FC = () => {
   );
 };
 
-export default Feedback;
+export {Feedback};
 
 const styles: Record<string, React.CSSProperties> = {
   container: {
