@@ -1,7 +1,7 @@
 {
   "name": "echomark",
-  "version": "1.0.2",
-  "description": "It is the EchoMark website feature integration package ",
+  "version": "1.0.3",
+  "description": "Provides an easy-to-use API and components for adding EchoMark’s interactive feedback system to any frontend framework",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
