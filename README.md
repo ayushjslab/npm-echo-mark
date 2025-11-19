@@ -1,4 +1,4 @@
-# 🎯 EcoMark - Customer Feedback Made Simple
+# 🎯 EhcoMark - Customer Feedback Made Simple
 
 <div align="center">
 
@@ -9,7 +9,7 @@
 
 **Collect real-time customer feedback with a beautiful, customizable widget. One line of code. Zero hassle.**
 
-[🌐 Visit EchoMark](https://echomark.vercel.app/) · [📚 Documentation](https://echomark.vercel.app/#watch-demo) · [🐛 Report Bug](https://github.com/ayushjslab/ecomark/npm-echomark)
+[🌐 Visit EchoMark](https://echomark.vercel.app/) · [📚 Documentation](https://echomark.vercel.app/#watch-demo) · [🐛 Report Bug](https://github.com/ayushjslab/npm-echo-mark/issues)
 
 </div>
 
@@ -25,20 +25,6 @@
 
 ---
 
-## 📦 Installation
-
-```bash
-# Using npm
-npm i ecomark
-
-# Using yarn
-yarn add ecomark
-
-# Using pnpm
-pnpm add ecomark
-```
-
----
 
 ## 🚀 Quick Start
 
@@ -135,9 +121,6 @@ All changes sync automatically - no code updates needed!
 | `theme` | `'light' \| 'dark' \| 'auto'` | `'auto'` | Color theme (auto detects system preference) |
 | `trigger` | `'button' \| 'text'` | `'button'` | How the feedback widget appears |
 | `showOnLoad` | `boolean` | `false` | Auto-open widget when page loads |
-| `language` | `string` | `'en'` | Interface language (en, es, fr, de, etc.) |
-
-
 ---
 
 ## 📊 View Your Feedback
@@ -233,31 +216,14 @@ const config = useRuntimeConfig();
 
 ---
 
-## 🌟 Features Overview
-
-| Feature | Starter | Professional | Enterprise |
-|---------|---------|--------------|------------|
-| Feedback Collection | 100/month | 5,000/month | Unlimited |
-| Customization | ✅ | ✅ | ✅ |
-| Analytics Dashboard | Basic | Advanced | Custom |
-| Team Members | 1 | 5 | Unlimited |
-| Priority Support | ❌ | ✅ | ✅ |
-| Custom Branding | ❌ | ✅ | ✅ |
-| API Access | ❌ | ❌ | ✅ |
-
-[View Full Pricing →](https://echomark.vercel.app/#pricing)
-
----
 
 ## 🤝 Support & Community
 
-- 📧 Email: ayush.jslab@gmail.com
-- 🐦 Twitter (X): https://twitter.com/ayushjslab
-- 💼 LinkedIn: https://www.linkedin.com/in/ayushjslab
-- 🐙 GitHub: https://github.com/ayushjslab
-- 📸 Instagram: https://instagram.com/ayushjslab
-- ▶️ YouTube: https://youtube.com/@ayushjslab
-- 🌐 Website (if you have one): https://ayushjslab.vercel.app
+- 📧 **Email**: support@echomark.com
+- 💬 **Discord**: [Join our community](https://discord.gg/echomark)
+- 🐦 **Twitter**: [@EchoMarkHQ](https://twitter.com/echomarkhq)
+- 📖 **Docs**: [Full Documentation](https://echomark.vercel.app/docs)
+
 ---
 
 ## 📄 License
@@ -268,7 +234,7 @@ MIT © EchoMark
 
 ## 🙏 Contributing
 
-We welcome contributions! . https://github.com/ayushjslab/npm-echomark
+We welcome contributions! Please see our https://github/ayushjslab/npm-ech-mark for details.
 
 ---
 
@@ -276,6 +242,6 @@ We welcome contributions! . https://github.com/ayushjslab/npm-echomark
 
 **Made with ❤️ by the EchoMark Team**
 
-[Get Started Free](https://echomark.vercel.app/) · [Star on GitHub](https://github.com/yourusername/ecomark) ⭐
+[Get Started Free](https://echomark.vercel.app/) · [Star on GitHub](https://github.com/yourusername/echomark) ⭐
 
 </div>
