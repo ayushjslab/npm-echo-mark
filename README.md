@@ -3,9 +3,9 @@
 <div align="center">
 
 ![EcoMark Logo](https://img.shields.io/badge/EcoMark-Feedback_Widget-6366f1?style=for-the-badge)
-[![npm version](https://img.shields.io/npm/v/ecomark?style=flat-square)](https://www.npmjs.com/package/echomark)
+[![npm version](https://img.shields.io/npm/v/echomark?style=flat-square)](https://www.npmjs.com/package/echomark)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
-[![Downloads](https://img.shields.io/npm/dm/ecomark?style=flat-square)](https://www.npmjs.com/package/ecomark)
+[![Downloads](https://img.shields.io/npm/dm/echomark?style=flat-square)](https://www.npmjs.com/package/echomark)
 
 **Collect real-time customer feedback with a beautiful, customizable widget. One line of code. Zero hassle.**
 
@@ -39,7 +39,7 @@
 #### React / Next.js
 
 ```jsx
-import { Feedback } from 'ecomark';
+import { Feedback } from 'echomark';
 
 function App() {
   return (
@@ -66,7 +66,7 @@ export default App;
 </template>
 
 <script setup>
-import { Feedback } from 'ecomark';
+import { Feedback } from 'echomark';
 </script>
 ```
 
@@ -84,7 +84,7 @@ import { Feedback } from 'ecomark';
   <div id="feedback-root"></div>
   
   <script type="module">
-    import { Feedback } from 'ecomark';
+    import { Feedback } from 'echomark';
     
     const root = document.getElementById('feedback-root');
     Feedback.mount(root, { siteId: 'your_site_id_here' });
@@ -141,7 +141,7 @@ Once integrated, all feedback appears instantly in your [EchoMark Dashboard](htt
 
 ```tsx
 // app/layout.tsx
-import { Feedback } from 'ecomark';
+import { Feedback } from 'echomark';
 
 export default function RootLayout({ children }) {
   return (
@@ -162,7 +162,7 @@ export default function RootLayout({ children }) {
 
 ```tsx
 // pages/_app.tsx
-import { Feedback } from 'ecomark';
+import { Feedback } from 'echomark';
 import type { AppProps } from 'next/app';
 
 export default function App({ Component, pageProps }: AppProps) {
@@ -190,7 +190,7 @@ export default function App({ Component, pageProps }: AppProps) {
 </template>
 
 <script setup>
-import { Feedback } from 'ecomark';
+import { Feedback } from 'echomark';
 
 const config = useRuntimeConfig();
 </script>
@@ -204,7 +204,7 @@ const config = useRuntimeConfig();
 ```svelte
 <!-- +layout.svelte -->
 <script>
-  import { Feedback } from 'ecomark';
+  import { Feedback } from 'echomark';
   import { PUBLIC_ECOMARK_SITE_ID } from '$env/static/public';
 </script>
 
