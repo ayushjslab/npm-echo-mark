@@ -1,6 +1,6 @@
-import * as React from "react"
+import * as React from "react";
 import { useState } from "react";
-
+import { FeedbackAPI } from "../api/feedback";
 const Feedback: React.FC = () => {
   const [rating, setRating] = useState(0);
   const [hover, setHover] = useState(0);
@@ -10,6 +10,42 @@ const Feedback: React.FC = () => {
     e.preventDefault();
     setSubmitted(true);
     setTimeout(() => setSubmitted(false), 2500);
+  };
+
+  React.useEffect(() => {
+    FeedbackAPI.validateSite("691d4ac1840493c3c71ede3d")
+      .then((res) => {
+        console.log("Data:", res);
+      })
+      .catch((error) => {
+        console.log("Error:", error);
+      });
+    FeedbackAPI.fetchStyles("691d4ac1840493c3c71ede3d")
+      .then((res) => {
+        console.log("Data:", res);
+      })
+      .catch((error) => {
+        console.log("Error:", error);
+      });
+  }, []);
+
+  const saveFeedback = async () => {
+    try {
+      FeedbackAPI.saveFeedback("691d4ac1840493c3c71ede3d", {
+        name: "Ayush Saini",
+        email: "ayush.jslab@gmail.com",
+        rating: 4,
+        description: "Very best App",
+      })
+        .then((res) => {
+          console.log("Data:", res);
+        })
+        .catch((error) => {
+          console.log("Error:", error);
+        });
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   return (
@@ -61,7 +97,7 @@ const Feedback: React.FC = () => {
           ))}
         </div>
 
-        <button type="submit" style={styles.button}>
+        <button type="submit" style={styles.button} onClick={saveFeedback}>
           Submit
         </button>
 
@@ -71,7 +107,7 @@ const Feedback: React.FC = () => {
   );
 };
 
-export {Feedback};
+export { Feedback };
 
 const styles: Record<string, React.CSSProperties> = {
   container: {
